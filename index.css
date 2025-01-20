@@ -1,14 +1,19 @@
-body{
+.outside{
     background:rgb(255, 230, 183);
-    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
 }
 .container{
     display:flex;
-    margin:10%;
     border-radius:20px;
     background-color:white;
-    width:80%;
-    height:80%;
+    height:70%;
+    width:60%;
+    height:450px;
+    width:650px;
 }
 .text{
     border: radius 15px;
@@ -16,10 +21,9 @@ body{
     flex-direction:column;
     justify-content:center;
     text-align:left;
-    margin:10% ;
+    margin:2% ;
     background-color:white;
     border-radius:15px;
-    width:50%;
 }
 img{
     border-radius:15px;
@@ -31,10 +35,17 @@ img{
     align-items:center;
 }
 .price h1{
-    margin-right:5px;
+    margin-right:10px;
 }
 h1{
-    font-size:40px;
+    font-size:30px;
+    line-height:32px;
+}
+h2{
+    line-height:20px;
+}
+p{
+    line-height:20px;
 }
 button{
     background-color:green;
@@ -53,25 +64,28 @@ button{
     .container{
         display:flex;
         flex-direction:column;
+        align-items:center;
         width:90%;
-        margin: 5%;
+        height:auto;
     }
     .container img{
         width:100%;
         border-radius:15px;
-        height:50%;
     }
     .text{
-       width:80%; 
-       height:60%;
+       width:90%; 
        margin-top:0;
     }
     button{
-        width:100%;
+        display:inline-block;
         margin-top:5%;
+        font-size:15px;
     }
     .text h1{
-        margin:0;
+        font-size:25px;
+    }
+    .text h2{
+        font-size:20px;
     }
     
 
