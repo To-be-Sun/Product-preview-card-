@@ -1,10 +1,11 @@
+body{
+    background-color:rgb(250, 230, 141);
+}
 .outside{
-    background:rgb(255, 230, 183);
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    height:100vh;
 }
 .container{
     display:flex;
@@ -36,6 +37,9 @@ img{
 }
 .price h1{
     margin-right:10px;
+}
+.price p{
+    text-decoration: line-through;
 }
 h1{
     font-size:30px;
